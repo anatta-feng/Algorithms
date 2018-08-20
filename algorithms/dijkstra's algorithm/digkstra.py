@@ -48,7 +48,7 @@ def find_lowest_cost_node(costs):
         if cost < lowest_cost and node not in processed:
             lowest_cost = cost
             lowest_cost_node = node
-        return lowest_cost_node
+    return lowest_cost_node
 
 digkstra()
 print(costs['fin'])
